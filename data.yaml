@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 31
+names: ['BBQ Chicken pizza', 'Bulldog', 'Corgi', 'Dalmatian', 'Excavator', 'F1', 'German Shepherd', 'Hawaiian Pizza', 'Labrador', 'Limousine', 'Pepperoni Pizza', 'Pickup truck', 'Pizza with crab sticks and crab cocktail', 'Seafood Deluxe pizza', 'Sedan', 'Shiba Inu', 'Siberian Husky', 'Tom yum kung pizza', 'Vegetarian Pizza', 'bacon cheese Pizza', 'cheese pizza', 'chiwawa', 'dobermanpinschers', 'golden', 'off road', 'rottweiler', 'shabu pizza', 'sports car', 'tank', 'truck', 'van']
+
+roboflow:
+  workspace: meng77
+  project: miniprotest
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/meng77/miniprotest/dataset/3
